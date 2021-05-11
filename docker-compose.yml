@@ -1,0 +1,7 @@
+version: "2.2"
+services:
+        sharedssh:
+                build: .
+                ports:
+                        - "22:22"
+
